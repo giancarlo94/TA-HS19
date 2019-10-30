@@ -1,0 +1,38 @@
+% !TeX spellcheck = en_US
+% !TeX encoding = UTF-8
+% !TeX TXS-program:compile = txs:///latexmk/[-pdf -silent -shell-escape -latexoption="-synctex=1" -output-directory="build" -r "docstyle/nomenclature_latexmkrc"]
+% !TeX TXS-program:quick = txs:///compile | txs:///view
+
+\documentclass[ta, english, nodeclaration]{docstyle/IDSCreport}
+\usepackage{longtable}
+\usepackage{xcolor} 
+\usepackage{appendix}
+\usepackage{rotating}
+
+
+\title{Limits of genetic and reranking approaches in recommender systems}
+\author{Giancarlo Bergamin}
+\ethid{13-939-251}
+\semester{HS 2019}
+\email{bergamin.giancarlo@students.ffhs.ch}
+\supervision{Dr. Joachim Steinwender\\ Dr. Claudiu Musat 
+}  
+\date{Oktober 2019}
+\keywords{Recommender Systems, reranking, genetic algorithms}
+\bibliography{bibliography}
+
+\identification{} 
+
+\begin{abstract}
+\end{abstract} 
+
+  
+\begin{document} 
+\input{chapters/disposition}
+\input{chapters/context}
+\input{chapters/methods}
+\input{chapters/results}
+\input{chapters/discussion}
+\appendix
+\listoftables
+\end{document}   
