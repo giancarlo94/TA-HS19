@@ -9,5 +9,18 @@
 
 In these few subsections I will lay out what the context, the goal and the methods of this term paper.
 
-\subsection{Summary of the subject}
+\section{Summary}
 Reranking and the use of genetic algorithms are two popular approaches when it comes to implementing recommender systems. In recent articles these approaches perform well but show some limitations in regard to the size of the training data sets and the duration oft he training itself. The goal of this term paper is to find these limits. A comparison between the two approaches and baseline algorithms (for example matrix factorization or collaborative filtering) will help determine the usefulness of the approaches in question.
+
+\section{Research question}
+The research questions to be answered throughout this term paper are the following:: \textbf{\emph{\begin{enumerate}
+        \item What are the limits with respect to computational time and processable data set size with the current genetic and reranking approaches for recommender systems?
+        \item Does the performance of these systems justify their limits?
+    \end{enumerate}}}
+    
+\section{Approach}
+To find the answers to these questions, recent published reranking and genetic algorithms will be implemented and tested against two baselines, a matrix factorisation and an item-based collaborative filtering approach. A comparison will be made to see which systems perform better and how the training time differs between these approaches.
+
+\section{Data}
+To test these assumptions, the MovieLens 1M data set will be used. It is a public data set that contains one million movie ratings from 6000 users on 4000 movies. The use of this public data set ensures the reproducibility of the results of this term paper.
+
